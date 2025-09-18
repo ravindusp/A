@@ -12,7 +12,7 @@ const offers = [
   {
     id: 2,
     title: "Sweet Bundle",
-    description: "3 sweet pretzels for $18",
+    description: "3 sweet pretzels for Rs 1499/=",
     time: "Weekend Special",
     accent: "secondary"
   },

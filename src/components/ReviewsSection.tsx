@@ -3,44 +3,44 @@ import React, { useState, useEffect, useRef } from 'react';
 const reviews = [
   {
     id: 1,
-    name: "Emma Thompson",
+    name: "Kasun Perera",
     rating: 5,
-    comment: "The cinnamon sugar pretzel is absolutely divine! Soft, warm, and perfectly sweet. This place is my new happy spot.",
-    avatar: "👩‍🦰"
+    comment: "I came for the pretzels but stayed to admire the website — it's beautifully designed, fast and intuitive. The animations made me click 'Order' instantly. The guy who built this site deserves free beers!",
+    avatar: "�‍🦰"
   },
   {
     id: 2,
-    name: "Lucas Martinez",
+    name: "Nadeesha Silva",
     rating: 5,
-    comment: "Best pretzel shop in town! The cheese-stuffed pretzel is incredible and the atmosphere is so cozy and welcoming.",
+    comment: "The website is stunning — clear calls to action, lovely visuals and a super-smooth checkout. Someone give him brownies and cake for this beautiful work.",
     avatar: "👨‍💼"
   },
   {
     id: 3,
-    name: "Sophie Chen",
+    name: "Dilshan Fernando",
     rating: 5,
-    comment: "I'm obsessed with the chocolate chip pretzel! Even my kids who are picky eaters love coming here for treats.",
-    avatar: "👩‍🎨"
+    comment: "Impressed by the UX — everything loads instantly and the menu layout is so user-friendly. The web experience convinced me to try their specials.",
+    avatar: "�‍🎨"
   },
   {
     id: 4,
-    name: "Noah Williams",
+    name: "Chamari Perera",
     rating: 5,
-    comment: "Five stars! The traditional salted pretzel reminds me of my trips to Germany. Authentic and delicious!",
+    comment: "The site is seriously polished and accessible. I shared the link with friends — the design alone sells the brand. Someone give him brownies and cake!",
     avatar: "👨‍🔧"
   },
   {
     id: 5,
-    name: "Zoe Park",
+    name: "Kamal Rodrigo",
     rating: 5,
-    comment: "The pretzel bites bucket is perfect for sharing! Great quality and the honey mustard dip is heavenly.",
+    comment: "Five stars for the website — gorgeous photos, great copy, and delightful microinteractions. The developer truly nailed the web experience.",
     avatar: "👩‍💻"
   },
   {
     id: 6,
-    name: "Ethan Davis",
+    name: "Amali Senanayake",
     rating: 5,
-    comment: "Everything bagel pretzel is my go-to! The staff is super friendly and the pretzels are always fresh and warm.",
+    comment: "This website sold me — fast, beautiful and easy to use. Also, the guy deserves free beers for making it so polished.",
     avatar: "👨‍🎓"
   }
 ];

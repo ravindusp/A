@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               <a href="#" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:neon-glow transition-all">
                 <Facebook className="w-5 h-5 text-primary" />
               </a>
-              <a href="#" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:neon-glow transition-all">
+              <a href="https://www.instagram.com/ravindusp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:neon-glow transition-all">
                 <Instagram className="w-5 h-5 text-black" />
               </a>
               <a href="#" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:neon-glow transition-all">
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
         {/* Bottom section */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Pretzel & Co. All rights reserved.
+            © 2025 Pretzel & Co. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Privacy Policy</a>
