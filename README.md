@@ -1,20 +1,22 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/2a2aa964-7d19-4dea-a44a-cbff341f3cc4
+# Pretzels & Co. — local development
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+You can work locally with your preferred IDE. Clone, install dependencies, and run the dev server:
 
-**Use Lovable**
+```sh
+# Clone the repository
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a2aa964-7d19-4dea-a44a-cbff341f3cc4) and start prompting.
+# Install dependencies
+npm install
 
-Changes made via Lovable will be committed automatically to this repo.
+# Start dev server
+npm run dev
+```
 
-**Use your preferred IDE**
+Edits made locally can be committed and pushed to your remote repository.
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
@@ -62,7 +64,13 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/2a2aa964-7d19-4dea-a44a-cbff341f3cc4) and click on Share -> Publish.
+You can deploy this site to any static host (Vercel, Netlify, GitHub Pages, etc.). Build a production bundle with:
+
+```sh
+npm run build
+```
+
+Then follow your host's instructions to deploy the generated `dist/` folder.
 
 ## Can I connect a custom domain to my Lovable project?
 

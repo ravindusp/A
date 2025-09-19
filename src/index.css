@@ -39,14 +39,16 @@
 
     --radius: 1.5rem;
 
-    /* Custom glassmorphism variables */
-    --glass-bg: 330 50% 95% / 0.4;
-    --glass-border: 330 75% 85% / 0.3;
+  /* Custom glassmorphism variables */
+  /* Reduced alpha to make panels more transparent */
+  --glass-bg: 330 50% 95% / 0.2;
+  --glass-border: 330 75% 85% / 0.25;
   --glass-blur: blur(22px);
     
     /* Gradients */
   --gradient-hero: linear-gradient(135deg, hsl(345 95% 96%) 0%, hsl(340 82% 94%) 35%, hsl(330 88% 96%) 65%, hsl(320 80% 97%) 100%);
-    --gradient-glass: linear-gradient(135deg, hsl(330 50% 95% / 0.6) 0%, hsl(200 70% 95% / 0.4) 100%);
+  /* make the gradient subtler (more transparent) */
+  --gradient-glass: linear-gradient(135deg, hsl(330 50% 95% / 0.35) 0%, hsl(200 70% 95% / 0.18) 100%);
     --gradient-neon: linear-gradient(45deg, hsl(330 75% 75%) 0%, hsl(200 70% 85%) 50%, hsl(0 0% 100%) 100%);
     
     /* Shadows */
@@ -114,12 +116,12 @@
 
   .glass-strong {
     background: var(--gradient-glass);
-    /* Make strong variant lighter so it reads as frosted, not opaque */
-    background-color: rgba(255,255,255,0.22);
+    /* Make strong variant more transparent so the panel reads lighter */
+    background-color: rgba(255,255,255,0.12);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
     border: 1px solid hsl(var(--glass-border));
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
   }
 
   /* Fallback for browsers that don't support backdrop-filter */
@@ -276,11 +278,12 @@
     top: -50%;
     width: 160%;
     height: 160%;
-    background: radial-gradient(closest-side, rgba(255,255,255,0.35), transparent 40%);
+    /* reduce highlight strength so the panel feels more transparent */
+    background: radial-gradient(closest-side, rgba(255,255,255,0.26), transparent 40%);
     transform: rotate(18deg);
     pointer-events: none;
     mix-blend-mode: overlay;
-    opacity: 0.9;
+    opacity: 0.6;
   }
 
   /* Diagonal stripe texture overlay */
@@ -290,7 +293,7 @@
     background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 4px, rgba(255,255,255,0.00) 4px 24px);
     pointer-events: none;
     mix-blend-mode: overlay;
-    opacity: 0.6;
+    opacity: 0.35;
   }
 
   /* Parallax layers - subtle movement controlled by JS */
